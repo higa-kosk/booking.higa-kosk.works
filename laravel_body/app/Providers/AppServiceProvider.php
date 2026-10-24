@@ -13,7 +13,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        // for coreserver
+        // これを追記（コアサーバーの絶対パスで指定）
+        $this->app->bind('path.public', function () {
+            return '/virtual/higakosk/domains/booking.higa-kosk.works/public_html';
+        });
     }
 
     /**
