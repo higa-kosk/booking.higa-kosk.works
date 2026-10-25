@@ -1,0 +1,1 @@
+import{m as e,x as t}from"./app-DKSynjTg.js";import{t as n}from"./_plugin-vue_export-helper-BDNMzG2s.js";var r={};function i(n,r){return t(),e(`div`)}var a=n(r,[[`render`,i]]);export{a as default};

@@ -58,7 +58,7 @@
 
 <script>
 import { defineComponent } from "vue";
-import { Inertia } from "@inertiajs/vue3"
+import { router } from "@inertiajs/vue3"
 import { Head } from "@inertiajs/vue3";
 import AppLayout from "@/Layouts/AppLayout.vue";
 import Header from "../Layouts/Header.vue";

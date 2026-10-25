@@ -9,7 +9,8 @@
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
-        @vite(['resources/js/app.js', 'resources/css/app.css'])
+        @routes
+        @vite(['resources/js/app.js', 'resources/sass/app.scss'])
     </head>
     <body class="font-sans antialiased">
         @inertia
